@@ -1,50 +1,41 @@
+import styles from '../styles/About.module.css'
+
 export default function About() {
   return (
     <section id="about">
-      {/* Contenido de la sección Sobre mí */}
-      <h2>About  </h2>
-      <h2>I was supposed to be sent away
-But they forgot to come and get me
-I was a functioning alcoholic
-'Til nobody noticed my new aesthetic
-All of this to say I hope you're okay
-But you're the reason
-And no one here's to blame
-But what about your quiet treason?
-And for a fortnight there, we were forever
-Run into you sometimes, ask about the weather
-Now you're in my backyard, turned into good neighbors
-Your wife waters flowers, I wanna kill her
-All my mornings are Mondays stuck in an endless February
-I took the miracle move-on drug, the effects were temporary
-And I love you, it's ruining my life
-I love you, it's ruining my life
-I touched you for only a fortnight
-I touched you, but I touched you
-And for a fortnight there, we were forever
-Run into you sometimes, ask about the weather
-Now you're in my backyard, turned into good neighbors
-Your wife waters flowers, I wanna kill her
-And for a fortnight there, we were together
-Run into you sometimes, comment on my sweater
-Now you're at the mailbox, turned into good neighbors
-My husband is cheating, I wanna kill him
-I love you, it's ruining my life
-I love you, it's ruining my life
-I touched you for only a fortnight
-I touched you, I touched you
-I love you, it's ruining my life
-I love you, it's ruining my life
-I touched you for only a fortnight
-I touched you, I touched you
-Thought of callin' ya, but you won't pick up
-'Nother fortnight lost in America
-Move to Florida, buy the car you want
-But it won't start up 'til you touch, touch, touch me
-Thought of calling ya, but you won't pick up
-'Nother fortnight lost in America
-Move to Florida, buy the car you want
-But it won't start up 'til I touch, touch, touch you  </h2>
+    <div className={styles.container}>
+      <h1 className={styles.heading}>Hola! Soy Paula Barillas 💎</h1>
+      <p className={styles.description}>Soy estudiante de 3er Año en Ciencias de la Computación  enfocada y apasionada en la programación tanto Frontend como Backend.</p>
+      
+      <div className={styles.cards}>
+        <div className={`${styles.card} ${styles.highlight}`}>
+          <div className={styles.iconContainer}>
+            <img src="/estudio.png" alt="Estudiante" className={styles.icon} />
+          </div>
+          <h3 className={styles.title}>Estudio</h3>
+          <p className={styles.text}>Actualmente soy estudiante de 5to semestre de Ingeniería en Ciencias de la Computación en la Universidad del Valle de Guatemala.</p>
+        </div>
+
+        <div className={`${styles.card} ${styles.highlight}`}>
+          <div className={styles.iconContainer}>
+            <img src="/programar.png" alt="Programación" className={styles.icon} />
+          </div>
+          <h3 className={styles.title}>Programación </h3>
+          <p className={styles.text}>Para Frontend y Backend creo interfaces agradables para los usuarios con elementos que las hacen estéticas y creo la lógica detrás del funcionamiento de una aplicación o página web.</p>
+        </div>
+
+        
+        <div className={`${styles.card} ${styles.highlight}`}>
+          <div className={styles.iconContainer}>
+            <img src="/experencia.png" alt="Experencia" className={styles.icon} />
+          </div>
+          <h3 className={styles.title}>Experencia </h3>
+          <p className={styles.text}>Cuento con experiencia en la creación de aplicaciones, páginas web e interfaces de usuario atractivas e interactivas además me considero responsable en los trabajos en equipo.</p>
+        </div>
+
+      </div>
+    </div>
+
     </section>
   )
 }
