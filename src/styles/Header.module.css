@@ -1,0 +1,91 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.navContainer {
+  margin-left: -1000px; 
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  margin-right: 20px;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav li {
+  margin: 0 1rem;
+}
+
+.header nav a {
+  position: relative;
+  color: #7c1a9a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header nav a::before,
+.header nav a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #5d0a64;
+  transition: normal ,  30s , cubic-bezier(1, 0, 0, 1), 0.2s, all;
+}
+
+
+.header nav a::before {
+  transform-origin: left;
+}
+
+.header nav a::after {
+  transform-origin: right;
+}
+
+.header nav a:hover {
+  color: #8a2be2; 
+}
+
+.header nav a:hover::before,
+.header nav a:hover::after {
+  width: 100%;
+}
+
+
+.header nav a.active::before {
+  width: 100%;
+}
+
+
+
+
+
+.svg {
+  animation: move 2s infinite; 
+}
