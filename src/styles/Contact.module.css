@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,523;1,523&family=Luckiest+Guy&family=Major+Mono+Display&family=Poetsen+One&family=Slabo+27px&family=Xanh+Mono:ital@0;1&family=Yeseva+One&display=swap');
+
+.container {
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 40px;
+    color: white;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-family: "Poetsen One", sans-serif;
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconLink {
+    transition: transform 0.3s ease;
+  }
+  
+  .iconLink:hover {
+    transform: scale(1.2);
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
