@@ -37,9 +37,9 @@ export default function Projects() {
 
   
   const proyectos = [
-    { nombre: 'Dibujo solo con CSS ', descripcion: 'Dibujo inspirado en la cantante Taylor Swift', imagen: '/csslab.png', github: 'https://github.com/paulabaal12/lab4-22764' },
+    { nombre: 'Dibujo solo con CSS ', descripcion: 'Dibujo inspirado en Taylor Swift', imagen: '/csslab.png', github: 'https://github.com/paulabaal12/lab4-22764' },
     { nombre: 'Chat Cliente', descripcion: 'Chat elaborado con JS, conectado a API', imagen: '/chatlab.png', github: 'https://github.com/paulabaal12/lab5-JSONLY' },
-    { nombre: 'Blog F1 Admin', descripcion: 'Blog creado con Vite + React con funciones de Admin', imagen: '/blog.png', github: 'https://github.com/paulabaal12/PROY-WEB1' },
+    { nombre: 'Blog F1 Admin', descripcion: 'Blog creado con Vite + React', imagen: '/blog.png', github: 'https://github.com/paulabaal12/PROY-WEB1' },
     { nombre: 'Compra y venta', descripcion: 'Proyecto sobre compra y venta en línea', imagen: '/compra.png', github: 'https://github.com/paulabaal12/PROY-SOFTWARE' },
     { nombre: 'Calculadora', descripcion: 'Calculadora con operaciones sencillas', imagen: '/calculadora.png', github: 'https://github.com/paulabaal12/lab8-Calculadora' },
   ];
