@@ -21,7 +21,7 @@ export default function About() {
             <img src="/programar.png" alt="Programación" className={styles.icon} />
           </div>
           <h3 className={styles.title}>Programación </h3>
-          <p className={styles.text}>Para Frontend y Backend creo interfaces agradables para los usuarios con elementos que las hacen estéticas y creo la lógica detrás del funcionamiento de una aplicación o página web.Por otro lado me gusta trabajar ocn bases de datos.</p>
+          <p className={styles.text}>Para Frontend y Backend creo interfaces agradables para los usuarios con elementos que las hacen estéticas y creo la lógica detrás del funcionamiento de una aplicación o página web.Por otro lado me gusta trabajar con bases de datos.</p>
         </div>
 
         
