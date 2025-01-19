@@ -5,7 +5,7 @@ export default function About() {
     <section id="about">
     <div className={styles.container}>
       <h1 className={styles.heading}>Hola! Soy Paula Barillas 💎</h1>
-      <p className={styles.description}>Soy estudiante de 3er Año en Ciencias de la Computación  enfocada y apasionada en la programación tanto Frontend como Backend.</p>
+      <p className={styles.description}>Soy estudiante de 4to Año en Ciencias de la Computación  enfocada y apasionada en la programación tanto Frontend como Backend y bases de datos.</p>
       
       <div className={styles.cards}>
         <div className={`${styles.card} ${styles.highlight}`}>
@@ -13,7 +13,7 @@ export default function About() {
             <img src="/estudio.png" alt="Estudiante" className={styles.icon} />
           </div>
           <h3 className={styles.title}>Estudio</h3>
-          <p className={styles.text}>Actualmente soy estudiante de 5to semestre de Ingeniería en Ciencias de la Computación en la Universidad del Valle de Guatemala.</p>
+          <p className={styles.text}>Actualmente soy estudiante de 7mo semestre de Ingeniería en Ciencias de la Computación en la Universidad del Valle de Guatemala.</p>
         </div>
 
         <div className={`${styles.card} ${styles.highlight}`}>
@@ -21,7 +21,7 @@ export default function About() {
             <img src="/programar.png" alt="Programación" className={styles.icon} />
           </div>
           <h3 className={styles.title}>Programación </h3>
-          <p className={styles.text}>Para Frontend y Backend creo interfaces agradables para los usuarios con elementos que las hacen estéticas y creo la lógica detrás del funcionamiento de una aplicación o página web.</p>
+          <p className={styles.text}>Para Frontend y Backend creo interfaces agradables para los usuarios con elementos que las hacen estéticas y creo la lógica detrás del funcionamiento de una aplicación o página web.Por otro lado me gusta trabajar ocn bases de datos.</p>
         </div>
 
         
